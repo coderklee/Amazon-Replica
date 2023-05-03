@@ -1,0 +1,121 @@
+img {
+    margin: auto;
+    display: block;
+    width: 100px;
+}
+
+#signin {
+    width:320px;
+    height:33px;
+    font-size: 14px;
+    background: linear-gradient(#F7DEA1, #F0C14D);
+    border: 0.5px solid #aaaaaa;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+signin:hover {
+    background: linear-gradient(#F5D68A, #EEBA36);
+}
+
+body {
+    font-size: 13px;
+    line-height: 19px;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+#SignInBorder {
+    position: static;
+    margin: 0 auto;
+    border: 0.5px solid #DDDDDD;
+    border-radius: 3px;
+    width: 340px;
+    padding-left: 25px;
+}
+
+input {
+    border-left-color: #DDDDDD;
+    border-right-color: #DDDDDD;
+    border-radius: 3px;
+    border-width: 0.2px;
+    height: 25px;
+    width: 315px;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    box-shadow: 0px 0px 1.5px 1.5px rgba(231,118,0,0.9);
+    outline: none;
+}
+
+#SignInTxt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26.5px;
+}
+
+h2 {
+    color: rgb(134,134,134);
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 11.5px;
+    max-width: 315px;
+    text-align: center;
+    position: relative;
+}
+
+h2::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    background: rgb(134,134,134);
+    left: 0;
+    top: 50%;
+    position: absolute;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    background: rgb(134,134,134);
+    right: 0;
+    top: 50%;
+    position: absolute;
+}
+
+h2 span {
+    background-color: white;
+    padding: 0 10px;
+}
+
+#createaccount {
+    margin-top: 30px;
+}
+
+#newaccount {
+    background: linear-gradient(#f6f7f9, #e7e9ec);
+    width: 315px;
+    height: 33px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border:0.5px solid #aaaaaa;
+    border-radius: 3px;
+}
+
+#first {
+    text-align: center;
+    position: static;
+    margin:auto;
+    width: 340px;
+    padding-left: 840px;
+}
+
+#special {
+    text-align: center;
+    position: static;
+    margin:auto;
+    width: 340px;
+}
